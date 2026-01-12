@@ -17,8 +17,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
 from src.interfaces.controllers.telegram_controller import TelegramBotController
 from src.application.services import CompressionOrchestrator
-from src.infrastructure.external.telegram_service import TelegramFileStorageService
-from src.infrastructure.external.telegram_notification_service import TelegramNotificationService
+from src.infrastructure.external.telegram_service import TelegramFileStorageService, TelegramNotificationService
 from src.infrastructure.compression.audio_compression_service import AudioCompressionService
 from src.infrastructure.compression.video_compression_service import VideoCompressionService
 from src.infrastructure.external.youtube_service import YouTubeService
